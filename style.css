@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+body{
+    background: #171717;
+    text-align: center;
+    color: aliceblue;
+}
+header{
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   position: fixed;
+   width: 100%;
+
+}
+
+nav {
+
+    display: flex;
+    margin-right: 10px;
+    justify-content: space-evenly;
+    background: #b97070;
+    color: aliceblue;
+    height: 63px;
+    width: 100%;
+    flex-direction: row;
+    padding-bottom: 0;
+    align-items: center;
+}
+
+nav a{
+    color: aliceblue;
+    text-decoration: none;
+
+
+}
+
+nav a:hover{
+    color: blue;
+}
+#title{
+
+    height: 50vw;
+    display: flex;
+    align-items: center;
+    text-align: center; 
+    background: rgb(95,106,106);
+}
+
+#title h1{
+
+    font-size: 4em;
+    justify-content: center;
+
+}
+
+#resumen{
+    padding: 130px;
+}
+#resumen h2{
+
+   justify-content: center;
+   align-items: center;
+   color: aliceblue;
+}
+
+#resumen p{
+    color: aliceblue;
+}
+
+#diagnostico{
+    padding: 150px;
+}
+#encuesta{
+    padding: 150px;
+}
+#encuesta a{
+    color: aliceblue;
+}
+#Justificacion{
+    padding: 100px;
+}
+#PROBLEMA{
+    padding: 150px;
+}
+#investigacion{
+    padding: 150px;
+}
+.pepe{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.preimg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    margin: 50px;  
+}
+.preimg img{
+    margin-top: 25px; 
+}
+#Justificacion .container{
+    display: flex;
+    flex-wrap: wrap;
+}
+#Justificacion p{
+    width: 40%;
+}
+.container h2{
+    width: 100%;
+    margin-bottom: 50px         ;
+}
